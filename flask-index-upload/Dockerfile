@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:flask-index
+FROM jacobmischka/uwsgi-nginx-flask:flask-index
 
 MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
 

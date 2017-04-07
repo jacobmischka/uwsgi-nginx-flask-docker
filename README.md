@@ -1,13 +1,13 @@
 ## Supported tags and respective `Dockerfile` links
 
-* [`flask`, `flask-python2.7`, `latest` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask/Dockerfile)
-* [`flask-index` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-index/Dockerfile)
-* [`flask-upload` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-upload/Dockerfile)
-* [`flask-index-upload` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-index-upload/Dockerfile)
-* [`flask-python3.5` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-python3.5/Dockerfile)
-* [`flask-python3.5-index` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-index/Dockerfile)
-* [`flask-python3.5-upload` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-upload/Dockerfile)
-* [`flask-python3.5-index-upload` _(Dockerfile)_](https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-index-upload/Dockerfile)
+* [`flask`, `flask-python2.7`, `latest` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask/Dockerfile)
+* [`flask-index` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-index/Dockerfile)
+* [`flask-upload` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-upload/Dockerfile)
+* [`flask-index-upload` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-index-upload/Dockerfile)
+* [`flask-python3.5` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-python3.5/Dockerfile)
+* [`flask-python3.5-index` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-index/Dockerfile)
+* [`flask-python3.5-upload` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-upload/Dockerfile)
+* [`flask-python3.5-index-upload` _(Dockerfile)_](https://github.com/jacobmischka/uwsgi-nginx-flask-docker/blob/master/flask-python3.5-index-upload/Dockerfile)
 
 # uwsgi-nginx-flask
 
@@ -19,27 +19,27 @@ This [**Docker**](https://www.docker.com/) image allows you to create [**Flask**
 
 uWSGI with Nginx is one of the best ways to deploy a Python web application, so you you should have a [good performance (check the benchmarks)](http://nichol.as/benchmark-of-python-web-servers) with this image.
 
-**GitHub repo**: <https://github.com/tiangolo/uwsgi-nginx-flask-docker>
+**GitHub repo**: <https://github.com/jacobmischka/uwsgi-nginx-flask-docker>
 
-**Docker Hub image**: <https://hub.docker.com/r/tiangolo/uwsgi-nginx-flask/>
+**Docker Hub image**: <https://hub.docker.com/r/jacobmischka/uwsgi-nginx-flask/>
 
 ## Examples (project templates)
 
-* **`flask`** tag (general Flask web application): [**example-flask**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask.zip>)
+* **`flask`** tag (general Flask web application): [**example-flask**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask.zip>)
 
-  * *`flask-python3.5`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5.zip>)
+  * *`flask-python3.5`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5.zip>)
 
-* **`flask-upload`** tag (general Flask web application. Allowing uploads of up to 100 MB.): [**example-flask-upload**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-upload.zip>)
+* **`flask-upload`** tag (general Flask web application. Allowing uploads of up to 100 MB.): [**example-flask-upload**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-upload.zip>)
 
-  * *`flask-python3.5-upload`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-upload**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-upload.zip>)
+  * *`flask-python3.5-upload`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-upload**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-upload.zip>)
 
-* **`flask-index`** tag (`static/index.html` served directly in `/`, e.g. for Angular JS): [**example-flask-index**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-index.zip>)
+* **`flask-index`** tag (`static/index.html` served directly in `/`, e.g. for Angular JS): [**example-flask-index**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-index.zip>)
 
-  * *`flask-python3.5-index`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-index**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-index.zip>)
+  * *`flask-python3.5-index`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-index**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-index.zip>)
 
-* **`flask-index-upload`** tag (`static/index.html` served directly in `/`, e.g. for Angular JS. Allowing uploads of up to 100 MB.): [**example-flask-index-upload**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-index-upload.zip>)
+* **`flask-index-upload`** tag (`static/index.html` served directly in `/`, e.g. for Angular JS. Allowing uploads of up to 100 MB.): [**example-flask-index-upload**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-index-upload.zip>)
 
-  * *`flask-python3.5-index-upload`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-index-upload**](<https://github.com/tiangolo/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-index-upload.zip>)
+  * *`flask-python3.5-index-upload`* tag (the equivalent as above, using Python 3.5): [**example-flask-python3.5-index-upload**](<https://github.com/jacobmischka/uwsgi-nginx-flask-docker/releases/download/v0.2.0/example-flask-python3.5-index-upload.zip>)
 
 ## General Instructions
 
@@ -47,25 +47,25 @@ You don't have to clone this repo, you should be able to use this image as a bas
 
 There are several image tags, for each one, there's a template repo (a `.zip` file that you can download from above, in the "**Examples**" section):
 
-* **`flask`** (also `latest` and `flask-python2.7`): An image based on the [**tiangolo/uwsgi-nginx**](https://hub.docker.com/r/tiangolo/uwsgi-nginx/) image. This image includes Flask and a sample app.
+* **`flask`** (also `latest` and `flask-python2.7`): An image based on the [**jacobmischka/uwsgi-nginx**](https://hub.docker.com/r/jacobmischka/uwsgi-nginx/) image. This image includes Flask and a sample app.
 
-The image [**tiangolo/uwsgi-nginx**](https://hub.docker.com/r/tiangolo/uwsgi-nginx/) has uWSGI and Nginx installed in the same container and is made to be the base of this image.
+The image [**jacobmischka/uwsgi-nginx**](https://hub.docker.com/r/jacobmischka/uwsgi-nginx/) has uWSGI and Nginx installed in the same container and is made to be the base of this image.
 
-Use `FROM tiangolo/uwsgi-nginx-flask:flask` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
+Use `FROM jacobmischka/uwsgi-nginx-flask:flask` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
 
 * **`flask-upload`**: The same as **`flask`** but configuring Nginx to allow uploads of up to 100 MB (the default is 1 MB).
 
-Use `FROM tiangolo/uwsgi-nginx-flask:flask-upload` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
+Use `FROM jacobmischka/uwsgi-nginx-flask:flask-upload` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
 
 * **`flask-index`**: An image based on the **`flask`** image (above), but optimizing the configuration to make Nginx serve `/app/static/index.html` directly (instead of going through uWSGI and your code) when requested for `/`.
 
 This is specially helpful (and efficient) if you are building a single-page app without Jinja2 templates (as with Angular JS) and using Flask as an API / back-end.
 
-Use `FROM tiangolo/uwsgi-nginx-flask:flask-index` in your `Dockerfile` to use this image.
+Use `FROM jacobmischka/uwsgi-nginx-flask:flask-index` in your `Dockerfile` to use this image.
 
 * **`flask-index-upload`**: The same as **`flask-index`** but configuring Nginx to allow uploads of up to 100 MB (the default is 1 MB).
 
-Use `FROM tiangolo/uwsgi-nginx-flask:flask-index-upload` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
+Use `FROM jacobmischka/uwsgi-nginx-flask:flask-index-upload` in your `Dockerfile` to use this image. (This would be the most general purpose tag image).
 
 * **Python 3.5**: There is a version of all the images and example templates above using Python 3.5. The usage is very similiar to the usage of the normal (Python 2.7) version, but using the equivalent `python3.5` tag (you can see all the available tags on the top). Nevertheless, [Python 2.7 is still the default as the Flask maintainers use it as default and port the code to Python 3.5](http://flask.pocoo.org/docs/0.11/python3/) and Python 2.7 is still the most used and supported version.
 
@@ -83,7 +83,7 @@ Or you may follow the instructions to build your project from scratch:
 * Create a `Dockerfile` with:
 
 ```
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM jacobmischka/uwsgi-nginx-flask:flask
 
 COPY ./app /app
 ```
@@ -136,7 +136,7 @@ Or you may follow the instructions to build your project from scratch (it's very
 * Create a `Dockerfile` with:
 
 ```
-FROM tiangolo/uwsgi-nginx-flask:flask-index
+FROM jacobmischka/uwsgi-nginx-flask:flask-index
 
 COPY ./app /app
 ```
@@ -223,7 +223,7 @@ client_max_body_size 50m;
 * And in your Dockerfile, you can copy that file to the Nginx configurations directory:
 
 ```
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM jacobmischka/uwsgi-nginx-flask:flask
 
 COPY ./my_upload_max.conf /etc/nginx/conf.d/
 
@@ -244,13 +244,13 @@ Roughly:
 
 * **Your Python code** has the actual **Flask** web application, and is run by uWSGI.
 
-The image [**tiangolo/uwsgi-nginx**](https://hub.docker.com/r/tiangolo/uwsgi-nginx/) takes advantage of already slim and optimized existing Docker images (based on Debian as [recommended by Docker](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)) and implements Docker best practices.
+The image [**jacobmischka/uwsgi-nginx**](https://hub.docker.com/r/jacobmischka/uwsgi-nginx/) takes advantage of already slim and optimized existing Docker images (based on Debian as [recommended by Docker](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)) and implements Docker best practices.
 
 It uses the official Python Docker image, installs uWSGI and on top of that, with the least amount of modifications, adds the official Nginx image (as of 2016-02-14).
 
 And it controls all these processes with Supervisord.
 
-The image (and tags) created by this repo is based on the image [**tiangolo/uwsgi-nginx**](https://hub.docker.com/r/tiangolo/uwsgi-nginx/) and adds Flask and sensible defaults on top of it.
+The image (and tags) created by this repo is based on the image [**jacobmischka/uwsgi-nginx**](https://hub.docker.com/r/jacobmischka/uwsgi-nginx/) and adds Flask and sensible defaults on top of it.
 
 If you follow the instructions and keep the root directory `/app` in your container, with a file named `main.py` and a Flask object named `app` in it, it should "just work".
 

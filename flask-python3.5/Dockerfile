@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx:python3.5
+FROM jacobmischka/uwsgi-nginx:python3.5
 
 MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
 

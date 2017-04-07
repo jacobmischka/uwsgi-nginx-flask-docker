@@ -1,3 +1,3 @@
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM jacobmischka/uwsgi-nginx-flask:flask
 
 COPY ./app /app

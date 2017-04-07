@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:flask-python3.5
+FROM jacobmischka/uwsgi-nginx-flask:flask-python3.5
 
 MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
 
