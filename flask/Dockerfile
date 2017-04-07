@@ -1,6 +1,6 @@
 FROM jacobmischka/uwsgi-nginx:python2.7
 
-MAINTAINER Sebastian Ramirez <tiangolo@gmail.com>
+MAINTAINER Jacob Mischka <jacob@mischka.me>
 
 RUN pip install flask
 
